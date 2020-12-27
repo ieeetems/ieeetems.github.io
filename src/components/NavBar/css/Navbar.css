@@ -1,0 +1,17 @@
+.navbar{
+    padding: 7vh 0 3vh 0;
+}
+
+.link{
+    text-decoration: none;
+    color: white !important;
+    font-family: 'Lato';
+}
+
+.link:hover, .link:active{
+    color: white;
+    cursor: pointer;
+    padding-bottom: 5px;
+    border-bottom: 4px solid white;
+}
+

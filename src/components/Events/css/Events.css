@@ -1,0 +1,32 @@
+.eventsContainer {
+    padding: 10vh 0 10vh 0;
+    background-color: white;
+    text-align: center;
+    font-family: 'Lato';
+}
+
+.eventItem {
+    padding: 0 0 5vh 0;
+}
+
+.moreButton {
+    background-color:  #006650f3 !important;
+    color: white !important;
+    font-family: 'Lato' !important;
+    margin: 3vh 0 0 0 !important;
+}
+
+.moreButton:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 12px 0 #00665079, 0 10px 25px 0 #00665079;
+}
+
+@media only screen and (orientation:landscape){
+    .eventsContainer { 
+        padding: 3vw 0 6vw 0;
+        background-color: white;
+    }
+    .eventItem {
+        padding: 0 0 2vw 0;
+    }
+}

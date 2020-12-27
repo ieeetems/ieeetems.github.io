@@ -1,0 +1,47 @@
+.resultsContainer {
+    padding: 5vh 0 10vh 0;
+    background-color: #006C54;
+    height: 100%;
+    text-align: center;
+}
+
+.resultHead {
+    font-family: 'Montserrat';
+    letter-spacing: 0.05em;
+    color:white;
+}
+
+.resultSubHead {
+    font-family: 'Lato';
+    letter-spacing: 0.05em;
+    line-height: 1.6em;
+    color:white;
+}
+
+.logoSmall {
+    width: 20vh;
+    padding: 0 0 5vh 0;
+}
+
+th, td {
+    font-family: 'Lato' !important;
+}
+
+.resultTable {
+    padding: 0 0 5vh 0;
+}
+
+th {
+    font-weight: bold !important;
+}
+
+@media only screen and (orientation: landscape) {    
+    .logoSmall {
+        width: 15vw;
+        padding: 0 0 2vw 0;
+    }
+
+    .resultTable {
+        padding: 0 0 2vw 0;
+    }
+}

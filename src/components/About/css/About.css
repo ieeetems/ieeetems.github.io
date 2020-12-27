@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.aboutContainer {
+    margin: 0;
+    text-align: center;
+    padding: 0 0 5vh 0;
+}
+
+.navLogo {
+    width: 20vh;
+    padding:5vh 0 5vh 0;
+}   
+
+.bannerContainer {
+    color: white;
+}
+
+.bannerTitle {
+    font-family: 'Montserrat';
+    letter-spacing: 0.05em;
+}
+
+.bannerCaption {
+    font-family: 'Lato';
+    letter-spacing: 0.05em;
+    line-height: 1.6em;
+}
+
+@media only screen and (orientation:landscape){    
+    .navLogo {
+        width: 40vh;
+        padding:10vh;
+    }   
+}
