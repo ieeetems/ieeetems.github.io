@@ -1,4 +1,4 @@
-import { Grid } from '@material-ui/core';
+import { Grid, IconButton } from '@material-ui/core';
 import React from 'react';
 import logo from '../../../logo.png';
 import '../css/results.css';
@@ -10,20 +10,9 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import {resultList} from '../static/results.js';
+import HomeIcon from '@material-ui/icons/Home';
 
-export default function RecResults() {
-    const columns = [
-        {
-            field: 'id', headerName: "S. No.", width: 60
-        },
-        {
-            field: 'name', headerName: "Name", width: 130
-        },
-        {
-            field: 'reg', headerName: "Reg. No.", width: 120
-        },
-    ];
-
+export default function RecResults(props) {
     const rows = resultList;
     return(
         <Grid 
@@ -35,7 +24,7 @@ export default function RecResults() {
                     <img src={logo} className="logoSmall" alt="logo"/>
                 </a>
             </Grid>
-            <Grid xs={1}/>
+            <Grid item xs={1}/>
             <Grid item xs={10}>
                 <h1 className="resultHead">WELCOME ABOARD! <br/> CORE COMMITTEE 2021</h1>
                 <p className = "resultSubHead">
@@ -67,6 +56,11 @@ export default function RecResults() {
                 </TableContainer>
             </Grid>
             <Grid item xs={2}/>
+            <Grid item xs={12}>
+                <IconButton onClick={()=>props.changeView('home')}>
+                    <HomeIcon style={{color:"white"}} fontSize="large"/>
+                </IconButton>
+            </Grid>
         </Grid>
     );
 }

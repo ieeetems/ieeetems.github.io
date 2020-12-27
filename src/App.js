@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import './App.css';
 import logo from '../src/logo.png';
 import OnBoard from './components/onBoard/js/onBoard';
@@ -12,16 +12,16 @@ import Results from './components/RecruitmentResults/js/RecruitmentResults.js';
 import {Fab, Zoom, makeStyles, useScrollTrigger, Chip } from '@material-ui/core';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 import { animateScroll as scroll } from "react-scroll";
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 function App(props) {
 
-	const fadeOverlay = () => {
-		document.querySelector("#app").classList.add("fade");
-	};
-	
+	const [view, changeView] = useState('home');
 	useEffect(()=>setTimeout(fadeOverlay,1500));
 
+	const fadeOverlay = () => {
+		if(view==='home')
+		document.querySelector("#app").classList.add("fade");
+	};
 	const useStyles = makeStyles((theme) => ({
 		root: {
 		position: 'fixed',
@@ -51,44 +51,39 @@ function App(props) {
 		</Zoom>
 		);
 	}
-
+	if( view === 'results')
+	return(
+		<Results changeView = {changeView}/>
+	)
 	return (
-		<Router>
-			<div className="temsSplash" id="app">
-				<img src={logo} className="logo" alt="hi"/>
+		<>
+			<div className="App">
+				<div className="temsSplash" id="app">
+					<img src={logo} className="logo" alt="hi"/>
+				</div>
+				<span id="back-to-top-anchor"></span>
+				<About />
+				<div className = "recruitmentResults">
+				<Chip 
+					clickable 
+					className="recruitmentResultsButton"
+					label ="Recruitment Results"
+					onClick = {()=> changeView('results')}
+				/>
+				</div>
+				<Stats />
+				<OnBoard />
+				<Domains />
+				<Events />
+				<Board />
+				<Contact />
+				<ScrollTop {...props}>
+				<Fab style = {{color:"white"}} size="medium" aria-label="scroll back to top">
+					<KeyboardArrowUpIcon style = {{color:"#006C54"}}/>
+				</Fab>
+				</ScrollTop>
 			</div>
-			<Switch>
-				<Route path="/temsvit">
-					<div className="App">
-						<span id="back-to-top-anchor"></span>
-						<About />
-						<div className = "recruitmentResults">
-							<Link to = "/results" className="resultsLink">
-								<Chip 
-									clickable 
-									className="recruitmentResultsButton"
-									label ="Recruitment Results"
-								/>
-							</Link>
-						</div>
-						<Stats />
-						<OnBoard />
-						<Domains />
-						<Events />
-						<Board />
-						<Contact />
-						<ScrollTop {...props}>
-						<Fab style = {{color:"white"}} size="medium" aria-label="scroll back to top">
-							<KeyboardArrowUpIcon style = {{color:"#006C54"}}/>
-						</Fab>
-						</ScrollTop>
-					</div>
-				</Route>
-				<Route to="/results">
-					<Results />
-				</Route>
-			</Switch>
-		</Router>
+		</>
 	);
 
 }
