@@ -32,8 +32,8 @@ export default function RecResults(props) {
                 </p>
             </Grid>
             <Grid item xs={1}/>
-            <Grid item xs={2}/>
-            <Grid item xs={8}>
+            <Grid item xs={1} md={2}/>
+            <Grid item xs={10} md={8}>
                 <TableContainer component={Paper} className = "resultTable">
                     <Table size="small" aria-label="a dense table" >
                         <TableHead className = "thead">
@@ -44,7 +44,7 @@ export default function RecResults(props) {
                         </TableHead>
                         <TableBody>
                             {rows.map((row) => (
-                                <TableRow key={row.id} className = "trow">
+                                <TableRow key={row.sno} className = "trow">
                                     <TableCell align="center" scope="row">
                                         {row.name}
                                     </TableCell>
@@ -55,10 +55,10 @@ export default function RecResults(props) {
                     </Table>
                 </TableContainer>
             </Grid>
-            <Grid item xs={2}/>
+            <Grid item xs={1} md={2}/>
             <Grid item xs={12}>
-                <IconButton onClick={()=>props.changeView('home')}>
-                    <HomeIcon style={{color:"white"}} fontSize="large"/>
+                <IconButton>
+                   <a href="https://ieeetemsvit.org"><HomeIcon style={{color:"white"}} fontSize="large"/></a>
                 </IconButton>
             </Grid>
         </Grid>
