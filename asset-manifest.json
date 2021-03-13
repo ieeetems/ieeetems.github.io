@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.efade899.chunk.css",
-    "main.js": "/static/js/main.9986dbe6.chunk.js",
-    "main.js.map": "/static/js/main.9986dbe6.chunk.js.map",
+    "main.css": "/static/css/main.80b54f2b.chunk.css",
+    "main.js": "/static/js/main.d19c1cec.chunk.js",
+    "main.js.map": "/static/js/main.d19c1cec.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2837edc2.js",
     "runtime-main.js.map": "/static/js/runtime-main.2837edc2.js.map",
     "static/js/2.08bc345a.chunk.js": "/static/js/2.08bc345a.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/index.html",
     "service-worker.js": "/service-worker.js",
     "service-worker.js.map": "/service-worker.js.map",
-    "static/css/main.efade899.chunk.css.map": "/static/css/main.efade899.chunk.css.map",
+    "static/css/main.80b54f2b.chunk.css.map": "/static/css/main.80b54f2b.chunk.css.map",
     "static/js/2.08bc345a.chunk.js.LICENSE.txt": "/static/js/2.08bc345a.chunk.js.LICENSE.txt",
     "static/media/akhil.4e7a1c11.jpg": "/static/media/akhil.4e7a1c11.jpg",
     "static/media/chandraShekar.46cc5ef0.jpg": "/static/media/chandraShekar.46cc5ef0.jpg",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.2837edc2.js",
     "static/js/2.08bc345a.chunk.js",
-    "static/css/main.efade899.chunk.css",
-    "static/js/main.9986dbe6.chunk.js"
+    "static/css/main.80b54f2b.chunk.css",
+    "static/js/main.d19c1cec.chunk.js"
   ]
 }
