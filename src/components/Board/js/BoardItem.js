@@ -20,7 +20,7 @@ export default function BoardItem(props) {
                                 <LinkedIn className="linkedInIcon" style={{color:"white"}}/>
                             </a>
                         </div>
-                    <img src={props.imageSrc} alt="nithish" className="boardImage"/>
+                    <img src={props.imageSrc} alt={"IEEE TEMS VIT - "+props.designation} className="boardImage"/>
                 </div>     
                 <div className="itemSubText">
                     <div className="memberName">{props.name}</div>

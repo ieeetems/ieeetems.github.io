@@ -1,28 +1,33 @@
-.successMessage{
-    font-weight: bolder;
-    font-size: 120%;
+.successMessage {
+  font-weight: bolder;
+  font-size: 120%;
 }
 
 .submitButton {
-    font-family: 'Lato' !important;
-    background-color: white !important;
-    font-weight: bold !important;
+  font-family: "Lato" !important;
+  background-color: white !important;
+  font-weight: bold !important;
 }
 
 .contactHead {
-    font-family: 'Poppins';
-    text-align: center;
-    padding: 5vh;
-    font-size: 5vh;
-    color:white;
+  font-family: "Poppins";
+  text-align: center;
+  padding: 5vh;
+  font-size: 5vh;
+  color: white;
 }
 
 .bottomNav {
-    padding: 10vh 0vh 7vh 0;
+  padding: 10vh 0vh 7vh 0;
 }
 
 .credits {
-    font-size: 80%;
-    padding-bottom: 7vh;
-    text-align: center;
+  font-size: 80%;
+  padding-bottom: 7vh;
+  text-align: center;
+}
+
+.devContact {
+  color: white;
+  font-family: "Lato" !important;
 }

@@ -18,7 +18,7 @@ export default function About() {
                 <Navbar />
             </Grid>
             <Grid item>
-                <img src={logo} className="navLogo" alt="logo"/>
+                <img src={logo} className="navLogo" alt="IEEE TEMS VIT"/>
             </Grid>
             <Grid container>
                 <Grid item xs={1}/>

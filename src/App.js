@@ -59,7 +59,7 @@ function App(props) {
 		<>
 			<div className="App">
 				<div className="temsSplash" id="app">
-					<img src={logo} className="logo" alt="hi"/>
+					<img src={logo} className="logo" alt="IEEE TEMS VIT"/>
 				</div>
 				<span id="back-to-top-anchor"></span>
 				<About />

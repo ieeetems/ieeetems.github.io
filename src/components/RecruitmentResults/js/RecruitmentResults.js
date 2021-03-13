@@ -21,7 +21,7 @@ export default function RecResults(props) {
         >
             <Grid item xs={12}>
                 <a href="https://ieeetemsvit.org">
-                    <img src={logo} className="logoSmall" alt="logo"/>
+                    <img src={logo} className="logoSmall" alt="IEEE TEMS VIT"/>
                 </a>
             </Grid>
             <Grid item xs={1}/>
