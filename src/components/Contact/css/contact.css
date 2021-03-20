@@ -5,7 +5,7 @@
 
 .submitButton {
   font-family: "Lato" !important;
-  background-color: white !important;
+  background-color:#ffffff !important;
   font-weight: bold !important;
 }
 
@@ -14,8 +14,10 @@
   text-align: center;
   padding: 5vh;
   font-size: 5vh;
-  color: white;
+  color:black;
 }
+
+
 
 .bottomNav {
   padding: 10vh 0vh 7vh 0;

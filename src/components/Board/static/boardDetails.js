@@ -6,7 +6,7 @@ import Saroj from './Saroj.jpg';
 import Dhiren from './Dhiren.jpeg';
 import Aishwarya from './Aishwarya.jpeg';
 import Saketh from './Saketh.JPG';
-import Mrudula from './Mrudula.jpeg';
+import Mrudula from './Mrudula.jpg';
 import Vishnuvardhan from './Vishnuvardhan.jpg';
 import Chaitanya from './Chaitanya.jpg';
 
