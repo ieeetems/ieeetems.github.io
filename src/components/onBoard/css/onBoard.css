@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&display=swap');
+.onBoard {
+    position: relative;
+    height:100%;
+    width:100%;
+    text-align: center;
+    margin:0;
+    font-family: 'Poppins';
+}
+
+.imgOnBoard {
+    height:50vw;
+    padding: 15vh 0 0 0;
+}
+
+.caption {
+    font-size: 7vh;
+    margin: 10vw 0 0 0;
+    padding: 0 0 20vh 0;
+}
+
+.control-left {
+    position: absolute;
+    top:75%;
+    left:20%;
+}
+
+.control-right {
+    position: absolute;
+    top:75%;
+    right: 20%;
+
+}
+
+@media only screen and (orientation:landscape){
+    .imgOnBoard {
+        height:20vw;
+        padding: 15vh 0 0 0 ;
+    }
+
+    .caption {
+        font-size: 8vw;
+        margin: 1vw 0 0 0;
+        padding:0 0 2vw 0;
+    }
+
+    .control-left {
+        position: absolute;
+        top:50%;
+        left:5%;
+    }
+    
+    .control-right {
+        position: absolute;
+        top:50%;
+        right:5%;
+ 
+    }
+}

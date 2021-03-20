@@ -1,0 +1,51 @@
+.domainChip{
+    margin: 1% 0.5% 0 0.5%;
+    color: white !important;
+    font-family: 'Lato' !important;
+    letter-spacing: 0.01em;
+}
+
+.tech {
+    background-color: #023d32 !important;
+}
+
+.mgmt {
+    background-color:  #006650f3 !important;
+}
+
+.creative {
+    background-color:  #058065a3 !important;
+}
+
+.contentWriting {
+    background-color:  #94C997 !important;
+}
+
+.domainChip:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
+.domainLegend{
+    padding:5vh 0 0 0;
+    text-align: center;
+    color:#0E141E;
+    font-weight: 600
+}
+.domainContainer {
+    padding: 10vh 0 10vh 0;
+    background-color: white;
+    text-align: center;
+    font-family: 'Lato';
+}
+
+@media only screen and (orientation:landscape){   
+    .domainContainer {
+        padding: 8vw 0 8vw 0;
+        background-color: white;
+    }
+    .domainLegend{
+        padding: 3vw 0 0 0;
+        text-align: center;
+        color:#0E141E
+    }
+}

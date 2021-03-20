@@ -1,0 +1,42 @@
+.statsContainer {
+    background-color: white;
+    padding: 10vh 0 5vh 0;
+    text-align: center;
+    font-family: "Lato";
+    letter-spacing: 0.05em;
+    color:#0E141E
+}
+
+.content {
+    font-size: 84%;
+}
+
+.statItem {
+    padding: 0 0 5vh 0;
+}
+
+.section-heading {
+    font-size: 1.7em;
+    padding: 0 0 5vh 0;
+}
+
+.sub-heading { 
+    font-size: 1.5em;
+    padding: 0 0 2vh 0;
+}
+
+.counter {
+    font-family: 'Poppins';
+    font-size: 2.5em;
+}
+
+@media only screen and (orientation:landscape){
+    .statsContainer {
+        background-color: white;
+        padding: 8vw 0 8vw 0;
+    }
+    .section-heading {
+        font-size: 1.7em;
+        padding: 0 0 5vw 0;
+    }
+}

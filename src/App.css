@@ -1,0 +1,57 @@
+.temsSplash {
+  opacity:1;     
+  transition: visibility 0.8s linear, opacity 0.8s linear;
+  background: #006C54;
+  height: 100%;
+  width: 100%;
+  left:0;
+  top:0;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.App{
+  background-color: #006C54;
+}
+
+.fade {
+  opacity:0;
+  visibility:hidden;
+}
+
+.logo {
+  width: 40%;
+  margin-left:30%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.recruitmentResults {
+    text-align: center;
+    padding: 0 0 10vh 0;
+}
+
+.recruitmentResultsButton {
+    font-family: 'Lato' !important;
+    padding: 1%;
+    color: black !important;
+    background-color: white !important;
+}
+
+.resultsLink {
+    text-decoration: none;
+}
+
+body {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media only screen and (orientation:landscape){  
+    .recruitmentResults {
+        text-align: center;
+        padding: 0 0 5vw 0;
+    }
+}
