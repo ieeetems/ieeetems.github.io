@@ -12,6 +12,7 @@ import Results from './components/RecruitmentResults/js/RecruitmentResults.js';
 import {Fab, Zoom, makeStyles, useScrollTrigger, Chip } from '@material-ui/core';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 import { animateScroll as scroll } from "react-scroll";
+import Carousel from './components/carousel/js/carousel';
 
 function App(props) {
 
@@ -74,6 +75,7 @@ function App(props) {
 				<Stats />
 				<OnBoard />
 				<Domains />
+				<Carousel />
 				<Events />
 				<Board />
 				<Contact />
