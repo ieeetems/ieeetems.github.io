@@ -1,0 +1,9 @@
+
+.pfdviewer{
+    position: fixed;
+    top:50%;
+    height:80vh;
+    width:70vw;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
