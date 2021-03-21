@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import B1 from "../b1.jpg";
+import B2 from "../b2.jpg";
 import "../css/blog.css"
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -22,7 +23,7 @@ function Blog() {
         setShow(!show);
     }
     return (
-        <div className="blog">
+        <div className="blog" id="blog">
             <h2 className="blog-title">Blogs</h2>
             <div className="blogcards">
             <Card className={classes.root} onClick={()=>{setShow(!show)}}>
@@ -36,21 +37,20 @@ function Blog() {
                 />
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
-                    Eveloution Of Social Media
+                    Evolution Of Social Media
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                 They say that necessity is the mother of invention and the man’s need for
 connecting with...
                 </Typography>
+                <br/>
+                <Button variant="contained"  onClick={()=>setShow(!show)} >
+                     Open
+                </Button>
                 </CardContent>
             </CardActionArea>
-            <CardActions>
-            <Button variant="contained"  onClick={()=>setShow(!show)} >
-            Open
-            </Button>
-                
-            </CardActions>
             </Card>
+            
             {show ? <Model onClose={handleShow} /> :null}
             </div>
         </div>

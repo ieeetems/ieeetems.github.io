@@ -29,7 +29,7 @@ const Carousel = ()=>{
 
     return(
       <div class="carousel"> 
-      <h1 class="events-title">OUR EVENTS</h1>  
+      <h1 class="events-title">Few Of Our Events</h1>  
         <OwlCarousel 
          items={1.5}
          center={true}

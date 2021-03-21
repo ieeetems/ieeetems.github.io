@@ -66,12 +66,12 @@ function App(props) {
 				<span id="back-to-top-anchor"></span>
 				<About />
 				<div className = "recruitmentResults">
-				<Chip 
+				{/* <Chip 
 					clickable 
 					className="recruitmentResultsButton"
 					label ="Recruitment Results"
 					onClick = {()=> changeView('results')}
-				/>
+				/> */}
 				</div>
 				<Stats />
 				<OnBoard />

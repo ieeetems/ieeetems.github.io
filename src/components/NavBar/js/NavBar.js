@@ -44,6 +44,17 @@ function Navbar(props){
             </Link>
             <Link 
                 className = 'link' 
+                underline = 'none'
+                to="blog"
+                spy={true}
+                smooth={true}
+                duration={500}
+                
+            >
+                Blogs
+            </Link>
+            <Link 
+                className = 'link' 
                 underline = 'none' 
                 to="board"
                 spy={true}

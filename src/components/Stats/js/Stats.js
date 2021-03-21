@@ -26,7 +26,7 @@ export default function Stats() {
         {
             animateValue("eventCount", 0, 70, 3000);
             animateValue("megaEventCount", 0, 7, 3000);
-            animateValue("coreMemberCount", 0, 100, 3000);
+            animateValue("coreMemberCount", 0, 150, 3000);
             visited=true;
         }
     }
