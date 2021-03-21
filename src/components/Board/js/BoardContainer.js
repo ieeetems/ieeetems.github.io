@@ -36,7 +36,7 @@ export default function Board() {
             <Grid container item xs={8} justify="space-evenly" alignItems="center">
                 <Grid item xs={12} className = "head">
                     <h1>TEAM</h1>
-                    <p  className = "subhead">Board - 2020</p>
+                    <p  className = "subhead">Board - 2021</p>
                 </Grid>
                 <Grid container item xs={12} className="boardRow">
                     {BoardRows.slice(0,3)}

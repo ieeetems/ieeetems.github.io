@@ -7,6 +7,7 @@ import { Facebook, Instagram, LinkedIn } from "@material-ui/icons";
 function ContactContainer(props) {
   return (
     <>
+    <div id="wrapper">
       <Grid
         container
         justify="center"
@@ -22,6 +23,7 @@ function ContactContainer(props) {
         </Grid>
         <Grid item xs={2} sm={4}></Grid>
       </Grid>
+    </div>
       <Grid container justify="center" className="bottomNav">
         <Grid item>
           <IconButton>
