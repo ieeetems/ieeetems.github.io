@@ -50,7 +50,7 @@ export const boardList = [
     {
         designation: "Publicity Chair",
         name: "Aishwarya Reddy",
-        linkedInProfile: "https://www.linkedin.com/in/harsha-sri-sumanth-885700189",
+        linkedInProfile: "http://linkedin.com/in/aishwarya-reddy-chinthalapudi-57476919b",
         imageSrc: Aishwarya
     },
     {
