@@ -22,7 +22,7 @@ const Carousel = ()=>{
         margin:10
       },
       1000: {
-        items: 2.6
+        items: 4
       }
 };
 
@@ -38,6 +38,7 @@ const Carousel = ()=>{
          margin={100}
          autoplayHoverPause={true}
          dots={false}
+         nav={true}
          autoplay={true}
          smartSpeed={1000}
          autoplayTimeout={4000}

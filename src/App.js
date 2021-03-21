@@ -9,10 +9,11 @@ import Board from './components/Board/js/BoardContainer';
 import Events from './components/Events/js/Events';
 import Contact from './components/Contact/js/contactContainer.js';
 import Results from './components/RecruitmentResults/js/RecruitmentResults.js';
-import {Fab, Zoom, makeStyles, useScrollTrigger, Chip } from '@material-ui/core';
+import {Fab, Zoom, makeStyles, useScrollTrigger, Chip} from '@material-ui/core';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 import { animateScroll as scroll } from "react-scroll";
 import Carousel from './components/carousel/js/carousel';
+import Blog from './components/blogs/js/blog';
 
 function App(props) {
 
@@ -77,6 +78,9 @@ function App(props) {
 				<Domains />
 				<Carousel />
 				<Events />
+				{/* <Veiwpdf /> */}
+				{/* <Model /> */}
+				<Blog />
 				<Board />
 				<Contact />
 				<ScrollTop {...props}>

@@ -3,12 +3,12 @@ import Img2 from "../images/matlab-frame.jpg";
 import Img3 from "../images/beyond.jpeg";
 import Img4 from "../images/Zero emission_2-1.jpg";
 import Img5 from "../images/Untitled-1.jpg";
-import Img6 from "../images/whichprogram.jpeg";
+import Img6 from "../images/img1.jpg";
 import Img7 from "../images/supply chain managment.jpg";
 import Img8 from "../images/Standing apart among engineers 1234.png";
 import Img9 from "../images/SCM-3.jpg";
 import Img10 from "../images/jpiii.jpg";
-import Img11 from "../images/leadership.jpeg";
+import Img11 from "../images/img2.jpg";
 import Img12 from "../images/MATLAB-4.jpg";
 
 export const events =[
@@ -45,7 +45,7 @@ export const events =[
     {
         "id":6,
         "img":Img6,
-        "name":"which programming language should i learn first?",
+        "name":"Demystifying IoT",
         "discription":""
     },
     {
@@ -75,7 +75,7 @@ export const events =[
     {
         "id":11,
         "img":Img11,
-        "name":"Leadership and organizational management",
+        "name":"Web Development",
         "discription":""
     },
     {
