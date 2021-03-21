@@ -1,0 +1,17 @@
+.blog{
+    padding:30px;
+    background-color: rgb(227, 230, 218);
+}
+.blog-title{
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 25px;
+    font-family: 'Poppins';
+    color: rgb(63, 61, 86);
+}
+.blogcards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
