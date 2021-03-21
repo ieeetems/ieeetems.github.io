@@ -6,7 +6,6 @@ function Veiwpdf({props}) {
     const viewer = useRef(null);
     useEffect(()=>{
         WebViewer({path: "lib",initialDoc:Blog1},viewer.current).then(res=>{
-
         })
     },[])
     return (

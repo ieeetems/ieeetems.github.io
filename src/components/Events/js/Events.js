@@ -49,17 +49,7 @@ export default function Events() {
                             </blockquote>
                         </div>
                     </Grid>  
-                    <Grid item xs={12} className="eventItem">
-                        <div className="fb-post" data-href="https://www.facebook.com/temsvitu/posts/2666314926728682" data-width="auto" data-show-text="true">
-                            <blockquote cite="https://www.facebook.com/temsvitu/posts/2666314926728682" className="fb-xfbml-parse-ignore">
-                                <p>Glimpses of Henry Harvin Education&#039;s &#039;Certified Python Business Analyst&#039; 
-                                    (CPBA) Course - PYTHON BASED DATA ANALYSIS...
-                                </p>Posted by 
-                                <a href="https://www.facebook.com/temsvitu/">IEEE TEMS VIT</a> on&nbsp;
-                                <a href="https://www.facebook.com/temsvitu/posts/2666314926728682">Sunday, 7 April 2019</a>
-                            </blockquote>
-                        </div>
-                    </Grid>  
+                    
                 </Grid>
                 <Grid item md={2} />
             </Grid>
