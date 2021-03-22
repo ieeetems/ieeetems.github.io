@@ -20,7 +20,9 @@
     font-family: 'Montserrat';
     letter-spacing: 0.05em;
 }
-
+.Celebration{
+    font-family: 'Dancing Script', cursive;
+}
 .bannerCaption {
     font-family: 'Lato';
     letter-spacing: 0.05em;

@@ -24,6 +24,7 @@ export default function About() {
                 <Grid item xs={1}/>
                 <Grid item className="bannerContainer" xs={10}>
                     <h1 className="bannerTitle">BRIDGING DIVERSE PRINCIPLES</h1>
+                    <h1 className="Celebration">Celebrating Our 4th Anniversary</h1>
                     <p className = "bannerCaption">
                         Encapsulating technology and engineering management principles.<br/> We (IEEE Technology & Engineering Management Society) aim
                         to advance, enhance, and improve essential management and leadership skills of people.
