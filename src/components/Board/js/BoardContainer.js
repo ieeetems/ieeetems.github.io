@@ -1,13 +1,26 @@
-import React from 'react';
+import React,{useState} from 'react';
 import BoardItem from './BoardItem';
 import {Grid} from '@material-ui/core';
-import {boardList} from '../static/boardDetails';
+import {boardList_20,boardList_21} from '../static/boardDetails';
 import venugopal from '../static/venugopal.jpg';
 import subashini from '../static/subashini.jpg';
 
 export default function Board() {
+    const [year,setYear] =useState(2021);
     const BoardRows = function() {
-        let rows = [], boardCount = boardList.length;
+        let rows=[];
+        let boardCount=0;
+        let boardList=[];
+        if(year === 2020){
+            boardCount = boardList_20.length;
+            boardList = boardList_20;
+        }else if(year === 2021){
+            boardCount = boardList_21.length;
+            boardList= boardList_21;
+        }else{
+            boardCount = boardList_21.length;
+            boardList= boardList_21;
+        }
         for(let i=0; i<boardCount; i++) 
             rows.push(
                 <Grid 
@@ -36,7 +49,10 @@ export default function Board() {
             <Grid container item xs={8} justify="space-evenly" alignItems="center">
                 <Grid item xs={12} className = "head">
                     <h1>TEAM</h1>
-                    <p  className = "subhead">Board - 2021</p>
+                    <p>
+                    <b  className = "subhead" style={{marginLeft:"5px",cursor:"pointer"}} onClick={()=>setYear(2021)}>Board - 2021 </b>  | 
+                    <b  className = "subhead" style={{marginRight:"5px",cursor:"pointer"}} onClick={()=>setYear(2020)}> Board - 2020</b>
+                    </p>
                 </Grid>
                 <Grid container item xs={12} className="boardRow">
                     {BoardRows.slice(0,3)}
