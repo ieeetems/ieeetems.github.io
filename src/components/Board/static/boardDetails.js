@@ -1,81 +1,74 @@
-import Vinay from './Vinay.jpg';
-import Vishnu from './Vishnu.JPG';
-import Rizvi from './Rizvi.jpg';
-import ARJUN from './ARJUN.jpg';
-import Saroj from './Saroj.jpg';
-import Dhiren from './Dhiren.jpeg';
-import Aishwarya from './Aishwarya.jpeg';
-import Saketh from './Saketh.JPG';
-import Mrudula from './Mrudula.jpg';
-import Vishnuvardhan from './Vishnuvardhan.jpg';
-import Chaitanya from './Chaitanya.jpg';
+import Afifa from './Afifa.jpeg';
+import Bhavana from './Bhavana.jpg';
+import Harshit from './Harshit.jpeg';
+import Niranjan from './Niranjan.jpg';
+import Pavani from './Pavani.jpeg';
+import Siddharth from './Siddharth.jpeg';
+import Vineesh from './Vineesh.jpg';
+import Tarun from './Tarun.jpeg';
+import Ujwala from './Ujwala.jpeg';
+import Yashwant from './Yashwant.jpeg';
 
 export const boardList = [
     {
         designation: "Chairperson",
-        name: "Sai Vinay Naidu",
-        linkedInProfile: "https://www.linkedin.com/in/vinay-sai-287b61177/",
-        imageSrc: Vinay
+        name: "Yashwanth Nadella",
+        linkedInProfile: "https://www.linkedin.com/in/yashwanth-nadella-3013591aa",
+        imageSrc: Yashwant
     },
     {
         designation: "Co-Chairperson",
-        name: "K.Vishnu Sai",
-        linkedInProfile: "https://www.linkedin.com/in/vishnu-sai-081689170/",
-        imageSrc: Vishnu
+        name: "Vineesh Reddy",
+        linkedInProfile: "https://www.linkedin.com/in/vineesh-reddy-5ab9421a4",
+        imageSrc: Vineesh
     },
     {
         designation: "Secretary",
-        name: "Abdul Adnaan Mohammad",
-        linkedInProfile: "https://www.linkedin.com/in/adnaan-mohammad-381709189/",
-        imageSrc: Rizvi
+        name: "Meher Bhavana",
+        linkedInProfile: "https://www.linkedin.com/in/meher-bhavana-1120501b8",
+        imageSrc: Bhavana
     },
     {
         designation: "Co-Secretary",
-        name: "Arjun Varma",
-        linkedInProfile: "https://www.linkedin.com/in/arjun-varma-a379671a1/",
-        imageSrc: ARJUN
-    },
-    {
-        designation: "Program Chair",
-        name: "Saroj Anand Tripathy",
-        linkedInProfile: "https://www.linkedin.com/in/saroj-anand-tripathy-411a8b181/",
-        imageSrc: Saroj
+        name: "Tarun Polepalli",
+        linkedInProfile: "https://www.linkedin.com/in/tarun-polepalli-8663581aa",
+        imageSrc: Tarun
     },
     {
         designation: "Tech Chair",
-        name: "Meher Satya Dhiren A",
-        linkedInProfile: "https://www.linkedin.com/in/meher-satya-dhiren-aravapalli-7a870a178/",
-        imageSrc: Dhiren
+        name: "Harshit Mishra",
+        linkedInProfile: "https://www.linkedin.com/in/harshit-mishra-509b4918b/",
+        imageSrc: Harshit
+    },
+    {
+        designation: "Events Chair",
+        name: "P.Y.R. Pavani",
+        linkedInProfile: "https://www.linkedin.com/in/pavani-pyr-995b56198/",
+        imageSrc: Pavani
     },
     {
         designation: "Publicity Chair",
-        name: "Aishwarya Reddy",
-        linkedInProfile: "https://linkedin.com/in/aishwarya-reddy-chinthalapudi-57476919b",
-        imageSrc: Aishwarya
+        name: "Ujwala Rekapalli",
+        linkedInProfile: "https://www.linkedin.com/in/ujwala-rekapalli-57031a1a0",
+        imageSrc: Ujwala
     },
     {
         designation: "Creative Chair",
-        name: "T Manikanta Saketh",
-        linkedInProfile: "https://www.linkedin.com/in/manikanta-saketh-4872a01a5/",
-        imageSrc: Saketh
+        name: "KP Siddhardha Varma",
+        linkedInProfile: "https://www.linkedin.com/in/siddhardha-varma-mudunuri",
+        imageSrc: Siddharth
     },
     {
-        designation: "Documentation Chair",
-        name: "Mrudu Lahari M",
-        linkedInProfile: "https://www.linkedin.com/in/mrudu-lahari-653b42188/",
-        imageSrc: Mrudula
+        designation: "Editorial Chair",
+        name: "Shaik Afifa Aiman",
+        linkedInProfile: "http://www.linkedin.com/in/afifa-aiman-shaik",
+        imageSrc: Afifa
     },
     {
         designation: "Finance Chair",
-        name: "Vishnuvardhan A",
-        linkedInProfile: "https://www.linkedin.com/in/vishnuvardhan-a-03697a1a1/",
-        imageSrc: Vishnuvardhan
+        name: "Niranjan Venkatesan",
+        linkedInProfile: "https://www.linkedin.com/in/niranjan-venkatesan-470bab190",
+        imageSrc: Niranjan
     },
-    {
-        designation: "Operations Chair",
-        name: "Mullapudi Chaitanya",
-        linkedInProfile: "https://www.linkedin.com/in/mullapudi-chaitanya-krishna-50b61117b/",
-        imageSrc: Chaitanya
-    }
 
 ];

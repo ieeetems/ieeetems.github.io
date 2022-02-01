@@ -12,7 +12,7 @@ export default function Board() {
             rows.push(
                 <Grid 
                     item 
-                    xs={12} sm={ (i<3) ? 4 : 3 }
+                    xs={12} sm={2}
                     key = {i}
                 >
                     <BoardItem 
@@ -33,25 +33,30 @@ export default function Board() {
             id = "board"
         >
             <Grid item xs={1}/>
-            <Grid container item xs={8} justify="space-evenly" alignItems="center">
+            <Grid container item xs={12} justify="space-evenly" alignItems="center">
                 <Grid item xs={12} className = "head">
                     <h1>TEAM</h1>
-                    <p  className = "subhead">Board - 2021</p>
+                    <p  className = "subhead">Board - 2022</p>
                 </Grid>
                 <Grid container item xs={12} className="boardRow">
-                    {BoardRows.slice(0,3)}
+                <Grid item xs={12} sm={1}/>
+                    {BoardRows.slice(0,5)}
+                    
                 </Grid>
                 <Grid container item xs={12} className="boardRow">
-                    {BoardRows.slice(3,7)}
+                <Grid item xs={12} sm={1}/>
+                    {BoardRows.slice(5,10)}
                 </Grid>
-                <Grid container item xs={12} className="boardRow">
-                    {BoardRows.slice(7)}               
-                </Grid>
+                
+                
+                
+
+
                 <Grid container item xs={12} className = "facultyRow">
-                    <Grid item xs={12} sm={3}/>
+                    <Grid item xs={12} sm={4}/>
                     <Grid 
                         item 
-                        xs={12} sm={3}
+                        xs={12} sm={2}
                     >
                         <BoardItem 
                             designation = "Faculty Coordinator"
@@ -62,7 +67,7 @@ export default function Board() {
                     </Grid>
                     <Grid 
                         item 
-                        xs={12} sm={3}
+                        xs={12} sm={2}
                     >
                         <BoardItem 
                             designation = "Faculty Coordinator"
@@ -71,7 +76,7 @@ export default function Board() {
                             linkedInProfile = "https://www.linkedin.com/in/subashini-rajagopal-b97319139/"
                         />
                     </Grid>
-                    <Grid item xs={12} sm={3}/>
+                    
                 </Grid>
             </Grid>
             <Grid item xs={1}/>
