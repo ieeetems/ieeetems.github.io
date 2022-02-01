@@ -30,7 +30,7 @@ export const boardList = [
     },
     {
         designation: "Co-Secretary",
-        name: "Tarun Vijay Kumar Pollepalli",
+        name: "Tarun Polepalli",
         linkedInProfile: "https://www.linkedin.com/in/tarun-polepalli-8663581aa",
         imageSrc: Tarun
     },
@@ -42,7 +42,7 @@ export const boardList = [
     },
     {
         designation: "Events Chair",
-        name: "Pavani",
+        name: "P.Y.R. Pavani",
         linkedInProfile: "https://www.linkedin.com/in/pavani-pyr-995b56198/",
         imageSrc: Pavani
     },
@@ -54,19 +54,19 @@ export const boardList = [
     },
     {
         designation: "Creative Chair",
-        name: "Siddharth Varma",
+        name: "KP Siddhardha Varma",
         linkedInProfile: "https://www.linkedin.com/in/siddhardha-varma-mudunuri",
         imageSrc: Siddharth
     },
     {
         designation: "Editorial Chair",
         name: "Shaik Afifa Aiman",
-        linkedInProfile: "https://www.linkedin.com/in/mrudu-lahari-653b42188/",
+        linkedInProfile: "http://www.linkedin.com/in/afifa-aiman-shaik",
         imageSrc: Afifa
     },
     {
         designation: "Finance Chair",
-        name: "Niranjan V",
+        name: "Niranjan Venkatesan",
         linkedInProfile: "https://www.linkedin.com/in/niranjan-venkatesan-470bab190",
         imageSrc: Niranjan
     },
