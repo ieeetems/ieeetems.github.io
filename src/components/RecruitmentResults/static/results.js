@@ -1,542 +1,537 @@
 export const resultList = [
 	{
 		sno: 1,
-		name: 'G Prasanjay',
-		reg: '19BBS0093'
+		name: 'Shashwat Singh',
+		reg: '21BCI0357'
 	},
 	{
 		sno: 2,
-		name: 'Kalluri Sai Tanmy',
-		reg: '19BBS0206'
+		name: 'Kokila Gulati',
+		reg: '20BCE0402'
 	},
 	{
 		sno: 3,
-		name: 'Varun Ch',
-		reg: '19BCB0062'
+		name: 'Jagruthi',
+		reg: '20BCE0395'
 	},
 	{
 		sno: 4,
-		name: 'Chaitanya',
-		reg: '19BCE0047'
+		name: 'Samanvitha',
+		reg: '21BCE0107'
 	},
 	{
 		sno: 5,
-		name: 'Chama Jahnavi',
-		reg: '19BCE0428'
+		name: 'Sai Surya',
+		reg: '21BCE0890'
 	},
 	{
 		sno: 6,
-		name: 'Niranjan Venkatesan',
-		reg: '19BCE0569'
+		name: 'Srujan Kulkarni',
+		reg: '21BEI0012'
 	},
 	{
 		sno: 7,
-		name: 'Sai Teja',
-		reg: '19BCE0570'
+		name: 'Fardeen S M',
+		reg: '21BCE0848'
 	},
 	{
 		sno: 8,
-		name: 'P. Saipranavi',
-		reg: '19BCE0732'
+		name: 'Batchu Praneeth Ram',
+		reg: '20BEC0727'
 	},
 	{
 		sno: 9,
-		name: 'Sri Harshitha Uppaala',
-		reg: '19BCE0770'
+		name: 'Shreya Sree',
+		reg: '21BCE0858'
 	},
 	{
 		sno: 10,
-		name: 'Harshit Mishra',
-		reg: '19BCE0799'
+		name: 'Rajvansh Sen',
+		reg: '20BEE0242'
 	},
 	{
 		sno: 11,
-		name: 'Ajith Bonda',
-		reg: '19BCE0802'
+		name: 'Bhagyesha',
+		reg: '21BBS0220'
 	},
 	{
 		sno: 12,
-		name: 'Potula Sri Rupin',
-		reg: '19BCE0825'
+		name: 'Prakhar Agarwal',
+		reg: '21BIT0034'
 	},
 	{
 		sno: 13,
-		name: 'Penke Lohith Sasi Anvesh',
-		reg: '19BCE2069'
+		name: 'Poddaturi Pavan Kumar',
+		reg: '20BIT0243'
 	},
 	{
 		sno: 14,
-		name: 'Alokam Nikhitha',
-		reg: '19BCE2555'
+		name: 'Manoga Chowdary Yamani',
+		reg: '21BCE3090'
 	},
 	{
 		sno: 15,
-		name: 'Kothamasu Karthik',
-		reg: '19BCI0141'
+		name: 'Lathivik',
+		reg: '21BCE3042'
 	},
 	{
 		sno: 16,
-		name: 'Mnv Sai Sandeep',
-		reg: '19BCI0175'
+		name: 'Chethan N.V',
+		reg: '21BCE0427'
 	},
 	{
 		sno: 17,
-		name: 'M. Sai Praneeth',
-		reg: '19BCI0177'
+		name: 'Sriram S',
+		reg: '21BCE2512'
 	},
 	{
 		sno: 18,
-		name: 'Sadusukesh',
-		reg: '19BCT0087'
+		name: 'Mohamed Rizwan A',
+		reg: '21BEE0208'
 	},
 	{
 		sno: 19,
-		name: 'Nikhil Reddy M',
-		reg: '19BCT0108'
+		name: 'Chodisetti Harshitalekya',
+		reg: '21BDS0307'
 	},
 	{
 		sno: 20,
-		name: 'Kocherlakota Vinay Rama Raju',
-		reg: '19BCT0129'
+		name: 'Aryan Choudhary',
+		reg: '21BCE3768'
 	},
 	{
 		sno: 21,
-		name: 'Syed Ruhid B',
-		reg: '19BCT0130'
+		name: 'Ikshit Samanta',
+		reg: '20BCE2821'
 	},
 	{
 		sno: 22,
-		name: 'M Dheeraj Kumar',
-		reg: '19BCT0146'
+		name: 'G M Gnanashekaran',
+		reg: '20MIS0224'
 	},
 	{
 		sno: 23,
-		name: 'Chaitanya V Eedala',
-		reg: '19BDS0013'
+		name: 'Arjun Malhotrea',
+		reg: '21BBS0110'
 	},
 	{
 		sno: 24,
-		name: 'Ladi Rohit',
-		reg: '19BDS0096'
+		name: 'Nitish Ramaraj',
+		reg: '21BCE0220'
 	},
 	{
 		sno: 25,
-		name: 'Kona Shravan',
-		reg: '19BDS0121'
+		name: 'Girish Murugan',
+		reg: '21BCE0182'
 	},
 	{
 		sno: 26,
-		name: 'Anirudh Paramkusam',
-		reg: '19BEC0045'
+		name: 'Tushar Sharma',
+		reg: '21BCE0429'
 	},
 	{
 		sno: 27,
-		name: 'Ajay Lumar',
-		reg: '19BEC0118'
+		name: 'Telkar Varasree',
+		reg: '21MID0120'
 	},
 	{
 		sno: 28,
-		name: 'Indugula Uma Satya Prakash',
-		reg: '19BEC0119'
+		name: 'Pranavi Deshpande',
+		reg: '21BEC2281'
 	},
 	{
 		sno: 29,
-		name: 'Mahidhar Rayapati',
-		reg: '19BEC0204'
+		name: 'Aditya Santosh',
+		reg: '21BCE0309'
 	},
 	{
 		sno: 30,
-		name: 'D.Jagan',
-		reg: '19BEC0255'
+		name: 'Sai Nitish Mitta',
+		reg: '20MID0054'
 	},
 	{
 		sno: 31,
-		name: 'K.Srinivasa Manjunath',
-		reg: '19BEC0287'
+		name: 'Dhruv Nischal',
+		reg: '21BIT0005'
 	},
 	{
 		sno: 32,
-		name: 'Dinesh Hanumath Kumar',
-		reg: '19BEC0355'
+		name: 'Gaurav Goswami',
+		reg: '21BBS0025'
 	},
 	{
 		sno: 33,
-		name: 'Booragadda Dheeraj',
-		reg: '19BEC0406'
+		name: 'Saakshi Singh Chauhan',
+		reg: '21BCE2325'
 	},
 	{
 		sno: 34,
-		name: 'Basava Pavan Sri Ram',
-		reg: '19BEC0423'
+		name: 'Harsh Mantri',
+		reg: '20BCE2312'
 	},
 	{
 		sno: 35,
-		name: 'Ujwala Rekapalli',
-		reg: '19BEC0478'
+		name: 'Sanskar Sandeep',
+		reg: '21BEE0205'
 	},
 	{
 		sno: 36,
-		name: 'Kondeti Venkatakiran',
-		reg: '19BEC0583'
+		name: 'Anusha Garg',
+		reg: '21BCE0412'
 	},
 	{
 		sno: 37,
-		name: 'Gujjula Yaswanth Kumar Reddy',
-		reg: '19BEC0821'
+		name: 'Mudduluru Bharath',
+		reg: '21BBS0166'
 	},
 	{
 		sno: 38,
-		name: 'M.Bhanu Prakash',
-		reg: '19BEC0851'
+		name: 'Rahul Gangopadhyay',
+		reg: '21BCE0133'
 	},
 	{
 		sno: 39,
-		name: 'S Gurudaya Varshni',
-		reg: '19BEE0252'
+		name: 'Harsh Khandelwal',
+		reg: '21BCE0204'
 	},
 	{
 		sno: 40,
-		name: 'Potta Sowmya',
-		reg: '19BIT0152'
+		name: 'Kuna Ramakrishna Naidu',
+		reg: '21BBS0221'
 	},
 	{
 		sno: 41,
-		name: 'Ishma Banu',
-		reg: '19BIT0186'
+		name: 'Ayushmaan Mishra',
+		reg: '21BEE0329'
 	},
 	{
 		sno: 42,
-		name: 'Venkat Vinay Velaga',
-		reg: '19BIT0339'
+		name: 'Tejas Sharma',
+		reg: '21BCE3561'
 	},
 	{
 		sno: 43,
-		name: 'Kushal Kumar P',
-		reg: '19BME0821'
+		name: 'Navin Rajesh Kuttiyil',
+		reg: '21BEC0509'
 	},
 	{
 		sno: 44,
-		name: 'Kadium Farheen Nawazi',
-		reg: '19MID0032'
+		name: 'Kishan Kaushik Koritala',
+		reg: '20BCE2331'
 	},
 	{
 		sno: 45,
-		name: 'A .Sai Pranav',
-		reg: '19MIS0105'
+		name: 'Mehul Parashar',
+		reg: '21BCE0546'
 	},
 	{
 		sno: 46,
-		name: 'Panasa Yamini Rama Pavani',
-		reg: '19MIS0120'
+		name: 'Richa Gupta',
+		reg: '21BCE0652'
 	},
 	{
 		sno: 47,
-		name: 'Katkam Shanmukh Akul',
-		reg: '19MIS0130'
+		name: 'Yash Sharma',
+		reg: '20BIT0453'
 	},
 	{
 		sno: 48,
-		name: 'G. Hinduja',
-		reg: '19MIS0348'
+		name: 'Ujjwal Jain',
+		reg: '21BCE0352'
 	},
 	{
 		sno: 49,
-		name: 'M.Jaswanth Kumar',
-		reg: '19MIS0364'
+		name: 'Rudraksh Mathuria',
+		reg: '21BBS0126'
 	},
 	{
 		sno: 50,
-		name: 'Rohit Birelli',
-		reg: '19MIS0370'
+		name: 'Shashank Kota',
+		reg: '21BEC0061'
 	},
 	{
 		sno: 51,
-		name: 'Ayush Jain',
-		reg: '20BBS0091'
+		name: 'Ananya Singh',
+		reg: '21BCE0678'
 	},
 	{
 		sno: 52,
-		name: 'Karthik.T',
-		reg: '20BBS0096'
+		name: 'Agastya Karnwal',
+		reg: '21BIT0020'
 	},
 	{
 		sno: 53,
-		name: 'Ayushmaan Jagetiya',
-		reg: '20BBS0124'
+		name: 'Tanisha Pal',
+		reg: '20BCE0836'
 	},
 	{
 		sno: 54,
-		name: 'Likhita Narra',
-		reg: '20BBS0143'
+		name: 'Vignesh Suresh',
+		reg: '21BCE3534'
 	},
 	{
 		sno: 55,
-		name: 'Nikhil Dangi',
-		reg: '20BBS0208'
+		name: 'Vijaya Snehita RN',
+		reg: '21BEC0443'
 	},
 	{
 		sno: 56,
-		name: 'Rishi Kaushal ',
-		reg: '20BCB0035 '
+		name: 'Aishwarya Arvapalli',
+		reg: '21BCE0373'
 	},
 	{
 		sno: 57,
-		name: 'Suraj R',
-		reg: '20BCB0060'
+		name: 'Tanul Manan',
+		reg: '20BBS0157'
 	},
 	{
 		sno: 58,
-		name: 'Anmol Gupta',
-		reg: '20BCB0135'
+		name: 'Ansruta',
+		reg: '21BEE0051'
 	},
 	{
 		sno: 59,
-		name: 'Guvvala Sharath Kumar Reddy',
-		reg: '20BCE0035'
+		name: 'Sindhu',
+		reg: '21MID0026'
 	},
 	{
 		sno: 60,
-		name: 'Thillai Chithambaram',
-		reg: '20BCE0086'
+		name: 'Bindhu',
+		reg: '21MID0112'
 	},
 	{
 		sno: 61,
-		name: 'Tanvir Mungekar',
-		reg: '20BCE0423'
+		name: 'Ayushi',
+		reg: '21BML0155'
 	},
 	{
 		sno: 62,
-		name: 'Prakhar Jain',
-		reg: '20BCE0434'
+		name: 'Rupanjana',
+		reg: '21BCI0376'
 	},
 	{
 		sno: 63,
-		name: 'Paarth Agrawal',
-		reg: '20BCE0500'
+		name: 'Devanshi',
+		reg: '21BIT0068'
 	},
 	{
 		sno: 64,
-		name: 'Maulik Bahri',
-		reg: '20BCE0918'
+		name: 'Aditi',
+		reg: '21BCE3668'
 	},
 	{
 		sno: 65,
-		name: 'Kartikey Matolia',
-		reg: '20BCE2053'
+		name: 'Naidu Sai Charmi',
+		reg: '21BCE3580'
 	},
 	{
 		sno: 66,
-		name: 'Dhairya Lunia',
-		reg: '20BCE2178'
+		name: 'Aryan Srivastava',
+		reg: '21BCI0115'
 	},
 	{
 		sno: 67,
-		name: 'Om Unmesh Gogwekar',
-		reg: '20BCE2473'
+		name: 'Prathipati Devi Harshita',
+		reg: '21BDS0195'
 	},
 	{
 		sno: 68,
-		name: 'Rohan Anand',
-		reg: '20BCE2582'
+		name: 'Sriya Chundru',
+		reg: '21BDS0186'
 	},
 	{
 		sno: 69,
-		name: 'Vanshit Kandoi',
-		reg: '20BCE2667'
+		name: 'Shubhi Shyamsukha',
+		reg: '21BCB0242'
 	},
 	{
 		sno: 70,
-		name: 'Vaibhav',
-		reg: '20BCI0143'
+		name: 'Abhishek Murthy',
+		reg: '21BDS0064'
 	},
 	{
 		sno: 71,
-		name: 'Sparsh',
-		reg: '20BCI0264'
+		name: 'Arisha Tanveer',
+		reg: '21BIT0511'
 	},
 	{
 		sno: 72,
-		name: 'Swarupatul',
-		reg: '20BCT0073'
+		name: 'Imran Chaudhary',
+		reg: '21BCE2851'
 	},
 	{
 		sno: 73,
-		name: 'Sahil Kaling',
-		reg: '20BCT0106'
+		name: 'Sameeksha',
+		reg: '21BCE3819'
 	},
 	{
 		sno: 74,
-		name: 'Divyansh Sharma',
-		reg: '20BCT0138'
+		name: 'Bhavesh Reddy',
+		reg: '21BCE0646'
 	},
 	{
 		sno: 75,
-		name: 'Prachurya Priyadarshini',
-		reg: '20BCT0155'
+		name: 'Pranav',
+		reg: '21BIT0632'
 	},
 	{
 		sno: 76,
-		name: 'Aman Sharma',
-		reg: '20BCT0267'
+		name: 'Mohit Panda',
+		reg: '21BCE2540'
 	},
 	{
 		sno: 77,
-		name: 'Priyansh Jain',
-		reg: '20BCT0291'
+		name: 'Ritwik Gupta',
+		reg: '21BIT0455'
 	},
 	{
 		sno: 78,
-		name: 'Shreyash Mehrotra',
-		reg: '20BCT0307'
+		name: 'Daksh Rupani',
+		reg: '21BIT0191'
 	},
 	{
 		sno: 79,
-		name: 'Avinaash M',
-		reg: '20BDS0235'
+		name: 'Rushikesh Reddy',
+		reg: '21BIT0541'
 	},
 	{
 		sno: 80,
-		name: 'Akash Gupta',
-		reg: '20BDS0241'
+		name: 'Harsh Pandey',
+		reg: '21BCE0617'
 	},
 	{
 		sno: 81,
-		name: 'Harsh Gupta',
-		reg: '20BEC0265'
+		name: 'Varsha Kolla',
+		reg: '21BEC2176'
 	},
 	{
 		sno: 82,
-		name: 'Niranjan Kumar S',
-		reg: '20BEC0280'
+		name: 'Tapesh Khandelwal',
+		reg: '21BCT0344'
 	},
 	{
 		sno: 83,
-		name: 'Lithika Shranuu R D',
-		reg: '20BEC0283'
+		name: 'Sankalp',
+		reg: '21BCE0830'
 	},
 	{
 		sno: 84,
-		name: 'Akshavi Raj',
-		reg: '20BEC0302'
+		name: 'Alisha Banerjee',
+		reg: '21BCE0666'
 	},
 	{
 		sno: 85,
-		name: 'Akash Mishra',
-		reg: '20BEC0397'
+		name: 'Varun Jindal',
+		reg: '20BCE0467'
 	},
 	{
 		sno: 86,
-		name: 'Akshath Sharma',
-		reg: '20BEC0463'
+		name: 'Gokul Sunil Sodar',
+		reg: '21BCE2950'
 	},
 	{
 		sno: 87,
-		name: 'Aditya Mantri',
-		reg: '20BEC0778'
+		name: 'Harsh Pandey',
+		reg: '19BEE0086'
 	},
 	{
 		sno: 88,
-		name: 'Sheetal Sahoo',
-		reg: '20BEE0066'
+		name: 'Kritika Sonare',
+		reg: '21BCE2923'
 	},
 	{
 		sno: 89,
-		name: 'Shivansh Raj',
-		reg: '20BEE0164'
+		name: 'Ruchita Maurya',
+		reg: '21BBT0005'
 	},
 	{
 		sno: 90,
-		name: 'Ritocheta Roy',
-		reg: '20BEE0167'
+		name: 'Sachita Manna',
+		reg: '21BEE0078'
 	},
 	{
 		sno: 91,
-		name: 'Nabeel Mohammed',
-		reg: '20BEE0225'
+		name: 'Varenya Saini',
+		reg: '21BCE0742'
 	},
 	{
 		sno: 92,
-		name: 'Nekkanti Veera Venkata Sita Lahari',
-		reg: '20BEE0260'
+		name: 'Srihitha',
+		reg: '21BEC0462'
 	},
 	{
 		sno: 93,
-		name: 'Vinyas A Shetty',
-		reg: '20BEI0001'
+		name: 'Khyati Singh',
+		reg: '21BCE0809'
 	},
 	{
 		sno: 94,
-		name: 'Nishita Jaiswal',
-		reg: '20BEI0094'
+		name: 'Bhavana Singh',
+		reg: '21BCE2431'
 	},
 	{
 		sno: 95,
-		name: 'Sahil Nandal',
-		reg: '20BIT0010'
+		name: 'Anisha Chandavarkar',
+		reg: '21BEE0055'
 	},
 	{
 		sno: 96,
-		name: 'Medha Srivastava',
-		reg: '20BIT0119'
+		name: 'Mitali Gopinath',
+		reg: '21BCE2447'
 	},
 	{
 		sno: 97,
-		name: 'M.Bhuvana Sri Lakshmi Durga',
-		reg: '20BIT0246'
+		name: 'Aryan',
+		reg: '21BCE0545'
 	},
 	{
 		sno: 98,
-		name: 'Koonamnenijanavi',
-		reg: '20BIT0248'
+		name: 'Devansh Srivastava',
+		reg: '21BCE0527'
 	},
 	{
 		sno: 99,
-		name: 'Gandla Sasank',
-		reg: '20BIT0265'
+		name: 'Raman Sharma',
+		reg: '21BEI0005'
 	},
 	{
 		sno: 100,
-		name: 'Sanyam Jain',
-		reg: '20BIT0428'
+		name: 'Manthan Garg',
+		reg: '21BCE3253'
 	},
 	{
 		sno: 101,
-		name: 'Nerella Alekhya',
-		reg: '20MID0003'
+		name: 'Ravinder Reddy',
+		reg: '21MID0018'
 	},
 	{
 		sno: 102,
-		name: 'Samudrala Meghana',
-		reg: '20MID0093'
+		name: 'Neelanjan',
+		reg: '21BCE0175'
 	},
 	{
 		sno: 103,
-		name: 'Aditya Jain',
-		reg: '20MID0105'
+		name: 'Aryan Bose',
+		reg: '21BCE0016'
 	},
 	{
 		sno: 104,
-		name: 'Arshi Goyal',
-		reg: '20MID0109'
+		name: 'Naman Jain',
+		reg: '20BDS0013'
 	},
 	{
 		sno: 105,
-		name: 'R Naga Tarun',
-		reg: '20MIS0205'
+		name: 'Umar Khan',
+		reg: '21BME0024'
 	},
 	{
 		sno: 106,
-		name: 'K.Megha Varshitha Reddy',
-		reg: '20MIS0207'
+		name: 'Piyush',
+		reg: '21BCB0137'
 	},
 	{
 		sno: 107,
-		name: 'Vetrivel',
-		reg: '20MIS0273'
-	},
-	{
-		sno: 108,
-		name: 'Ch.Venkata Sasi Kumar',
-		reg: '20MIS0294'
+		name: 'Aditya',
+		reg: '20MID0228'
 	},
 ]
