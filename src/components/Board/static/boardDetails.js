@@ -12,62 +12,62 @@ import Yashwant from './Yashwant.jpeg';
 export const boardList = [
     {
         designation: "Chairperson",
-        name: "Yashwanth Nadella",
-        linkedInProfile: "https://www.linkedin.com/in/yashwanth-nadella-3013591aa",
+        name: "Tanvir Mungekar",
+        linkedInProfile: "https://www.linkedin.com/in/tanvir-mungekar-491aa8202/",
         imageSrc: Yashwant
     },
     {
         designation: "Co-Chairperson",
-        name: "Vineesh Reddy",
-        linkedInProfile: "https://www.linkedin.com/in/vineesh-reddy-5ab9421a4",
+        name: "Jagruti Mahapatra",
+        linkedInProfile: "https://www.linkedin.com/in/jagruti02/",
         imageSrc: Vineesh
     },
     {
         designation: "Secretary",
-        name: "Meher Bhavana",
-        linkedInProfile: "https://www.linkedin.com/in/meher-bhavana-1120501b8",
+        name: "Sanyam Jain",
+        linkedInProfile: "https://www.linkedin.com/in/sanyam-jain-611577237/",
         imageSrc: Bhavana
     },
     {
         designation: "Co-Secretary",
-        name: "Tarun Polepalli",
-        linkedInProfile: "https://www.linkedin.com/in/tarun-polepalli-8663581aa",
+        name: "Priyansh Jain",
+        linkedInProfile: "https://www.linkedin.com/in/priyansh-jain-6455891b8/",
         imageSrc: Tarun
     },
     {
         designation: "Tech Chair",
-        name: "Harshit Mishra",
-        linkedInProfile: "https://www.linkedin.com/in/harshit-mishra-509b4918b/",
+        name: "Shreyash Mehrotra",
+        linkedInProfile: "https://www.linkedin.com/in/shreyash-mehrotra-637a50201/",
         imageSrc: Harshit
     },
     {
         designation: "Events Chair",
-        name: "P.Y.R. Pavani",
-        linkedInProfile: "https://www.linkedin.com/in/pavani-pyr-995b56198/",
+        name: "Akash Mishra",
+        linkedInProfile: "https://www.linkedin.com/in/akashmishraa/",
         imageSrc: Pavani
     },
     {
         designation: "Publicity Chair",
-        name: "Ujwala Rekapalli",
-        linkedInProfile: "https://www.linkedin.com/in/ujwala-rekapalli-57031a1a0",
+        name: "Vinyas Shetty",
+        linkedInProfile: "https://www.linkedin.com/in/vinyasshetty/",
         imageSrc: Ujwala
     },
     {
         designation: "Creative Chair",
-        name: "KP Siddhardha Varma",
-        linkedInProfile: "https://www.linkedin.com/in/siddhardha-varma-mudunuri",
+        name: "Varun Jindal",
+        linkedInProfile: "https://www.linkedin.com/in/varun-jindal-767a19202/",
         imageSrc: Siddharth
     },
     {
         designation: "Editorial Chair",
-        name: "Shaik Afifa Aiman",
-        linkedInProfile: "http://www.linkedin.com/in/afifa-aiman-shaik",
+        name: "Ritocheta Roy",
+        linkedInProfile: "https://www.linkedin.com/in/ritocheta-roy-bb5803218/",
         imageSrc: Afifa
     },
     {
         designation: "Finance Chair",
-        name: "Niranjan Venkatesan",
-        linkedInProfile: "https://www.linkedin.com/in/niranjan-venkatesan-470bab190",
+        name: "Nikhi Dangi",
+        linkedInProfile: "https://www.linkedin.com/in/nikhil-dangi-835124201/",
         imageSrc: Niranjan
     },
 
