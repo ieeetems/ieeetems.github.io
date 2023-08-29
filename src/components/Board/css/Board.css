@@ -1,9 +1,10 @@
+
 .boardContainer {
     padding: 13vh 0 15vh 0;
 }
 
 .boardRow {
-    padding: 0;
+    padding: 12vh 0 15vh 0;
 }
 
 .facultyRow {
@@ -48,6 +49,8 @@
 .itemContainer {
     position: relative;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
 }
 
 .itemContainer:hover .overlay {

@@ -36,7 +36,7 @@ export default function Board() {
             <Grid container item xs={12} justify="space-evenly" alignItems="center">
                 <Grid item xs={12} className = "head">
                     <h1>TEAM</h1>
-                    <p  className = "subhead">Board - 2022</p>
+                    <p  className = "subhead">Board - 2023</p>
                 </Grid>
                 <Grid container item xs={12} className="boardRow">
                 <Grid item xs={12} sm={1}/>

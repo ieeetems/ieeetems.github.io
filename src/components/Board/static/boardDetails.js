@@ -1,74 +1,82 @@
 import Afifa from './Afifa.jpeg';
 import Bhavana from './Bhavana.jpg';
-import Harshit from './Harshit.jpeg';
 import Niranjan from './Niranjan.jpg';
 import Pavani from './Pavani.jpeg';
 import Siddharth from './Siddharth.jpeg';
 import Vineesh from './Vineesh.jpg';
-import Tarun from './Tarun.jpeg';
 import Ujwala from './Ujwala.jpeg';
 import Yashwant from './Yashwant.jpeg';
+import Shreyash from './shreyash.png';
+import Priyansh from './priyansh.jpg';
+import Sanyam from './sanyam.jpg';
+import Tanvir from './tanvir.png';
+import Jagruti from './jagruti.png';
+import Akash from './akash.png';
+import Vinyas from './vinyas.png';
+import Varun from './varun.png';
+import Ritocheta from './ritocehta.png';
+import Nikhil from './nikhil.png';
 
 export const boardList = [
     {
         designation: "Chairperson",
-        name: "Yashwanth Nadella",
-        linkedInProfile: "https://www.linkedin.com/in/yashwanth-nadella-3013591aa",
-        imageSrc: Yashwant
+        name: "Tanvir Mungekar",
+        linkedInProfile: "https://www.linkedin.com/in/tanvir-mungekar-491aa8202/",
+        imageSrc: Tanvir
     },
     {
         designation: "Co-Chairperson",
-        name: "Vineesh Reddy",
-        linkedInProfile: "https://www.linkedin.com/in/vineesh-reddy-5ab9421a4",
-        imageSrc: Vineesh
+        name: "Jagruti Mahapatra",
+        linkedInProfile: "https://www.linkedin.com/in/jagruti02/",
+        imageSrc: Jagruti
     },
     {
         designation: "Secretary",
-        name: "Meher Bhavana",
-        linkedInProfile: "https://www.linkedin.com/in/meher-bhavana-1120501b8",
-        imageSrc: Bhavana
+        name: "Sanyam Jain",
+        linkedInProfile: "https://www.linkedin.com/in/sanyam-jain-611577237/",
+        imageSrc: Sanyam
     },
     {
         designation: "Co-Secretary",
-        name: "Tarun Polepalli",
-        linkedInProfile: "https://www.linkedin.com/in/tarun-polepalli-8663581aa",
-        imageSrc: Tarun
+        name: "Priyansh Jain",
+        linkedInProfile: "https://www.linkedin.com/in/priyansh-jain-6455891b8/",
+        imageSrc: Priyansh
     },
     {
         designation: "Tech Chair",
-        name: "Harshit Mishra",
-        linkedInProfile: "https://www.linkedin.com/in/harshit-mishra-509b4918b/",
-        imageSrc: Harshit
+        name: "Shreyash Mehrotra",
+        linkedInProfile: "https://www.linkedin.com/in/shreyash-mehrotra-637a50201/",
+        imageSrc: Shreyash
     },
     {
         designation: "Events Chair",
-        name: "P.Y.R. Pavani",
-        linkedInProfile: "https://www.linkedin.com/in/pavani-pyr-995b56198/",
-        imageSrc: Pavani
+        name: "Akash Mishra",
+        linkedInProfile: "https://www.linkedin.com/in/akashmishraa/",
+        imageSrc: Akash
     },
     {
         designation: "Publicity Chair",
-        name: "Ujwala Rekapalli",
-        linkedInProfile: "https://www.linkedin.com/in/ujwala-rekapalli-57031a1a0",
-        imageSrc: Ujwala
+        name: "Vinyas Shetty",
+        linkedInProfile: "https://www.linkedin.com/in/vinyasshetty/",
+        imageSrc: Vinyas
     },
     {
         designation: "Creative Chair",
-        name: "KP Siddhardha Varma",
-        linkedInProfile: "https://www.linkedin.com/in/siddhardha-varma-mudunuri",
-        imageSrc: Siddharth
+        name: "Varun Jindal",
+        linkedInProfile: "https://www.linkedin.com/in/varun-jindal-767a19202/",
+        imageSrc: Varun
     },
     {
         designation: "Editorial Chair",
-        name: "Shaik Afifa Aiman",
-        linkedInProfile: "http://www.linkedin.com/in/afifa-aiman-shaik",
-        imageSrc: Afifa
+        name: "Ritocheta Roy",
+        linkedInProfile: "https://www.linkedin.com/in/ritocheta-roy-bb5803218/",
+        imageSrc: Ritocheta
     },
     {
         designation: "Finance Chair",
-        name: "Niranjan Venkatesan",
-        linkedInProfile: "https://www.linkedin.com/in/niranjan-venkatesan-470bab190",
-        imageSrc: Niranjan
+        name: "Nikhi Dangi",
+        linkedInProfile: "https://www.linkedin.com/in/nikhil-dangi-835124201/",
+        imageSrc: Nikhil
     },
 
 ];

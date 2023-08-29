@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .aboutContainer {
+    height:100%;
     margin: 0;
     text-align: center;
     padding: 0 0 5vh 0;
